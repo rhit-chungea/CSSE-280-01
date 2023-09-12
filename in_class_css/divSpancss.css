@@ -1,0 +1,16 @@
+.bluebox {
+    background-color:blue;
+    height:100px;
+    width:auto;
+
+}
+.greenbox {
+    background-color:green;
+}
+.yellowbox {
+   background-color:yellow;
+}
+.great {
+    font-size:300%;
+}
+    

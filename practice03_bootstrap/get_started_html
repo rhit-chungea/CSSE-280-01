@@ -10,17 +10,102 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <h1>My First Bootstrap Page</h1>
   <h2>Testing this sentence</h2>
   <p>This part is inside a .container-fluid class.</p>
   <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
 </div>
-<!-- <div class="container-sm">.container-sm This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div>
+<div class="container-sm">.container-sm This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div>
 <div class="container-md">.container-md This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div>
 <div class="container-lg">.container-lg This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div>
 <div class="container-xl">.container-xl This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div>
 <div class="container-xxl">.container-xxl This is a very long sentence in order to test the conatiners of different sizes and to see how they fill up the screen when resized</div> -->
+
+<!-- Control the column width, and how they should appear on different devices
+<div class="row">
+  <div class="col-*-*">stuff</div>
+  <div class="col-*-*">stuff</div>
+</div>
+<div class="row">
+  <div class="col-*-*">stuff</div>
+  <div class="col-*-*">stuff</div>
+  <div class="col-*-*">stuff</div>
+</div> -->
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col">stuff</div>
+  <div class="col">stuff</div>
+  <div class="col">stuff</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+</div>
+
+<p class="h1">h1 Bootstrap heading <small>smaller text</small></p>
+<p class="h2">h2 Bootstrap <mark>3</mark>heading</p>
+<p class="h3"><abbr title="World Health Organization">WHO</abbr> h3 Bootstrap heading</p>
+<p class="text-bg-primary">h4 Bootstrap heading</p>
+<p class="h5">h5 Bootstrap heading</p>
+<p class="h6">h6 Bootstrap heading</p>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl> 
+<h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jim</td>
+        <td>Doe</td>
+        <td>jim@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr>
+        <td>Zach</td>
+        <td>Johnson</td>
+        <td>coolcat@yahoo.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+<img src="wrigley.jpg" class="rounded-circle" alt="Cinque Terre">
+
+<blockquote class="blockquote">
+  <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+  <footer class="blockquote-footer">From WWF's website</footer>
+</blockquote>
+
+<!-- <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+  <h1 class="display-5">Display 5</h1>
+  <h1 class="display-6">Display 6</h1> -->
 
 </body>
 </html>

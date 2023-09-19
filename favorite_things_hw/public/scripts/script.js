@@ -19,7 +19,7 @@ main = function() {
     }
 }
 updateView = function(){
-    document.querySelector("#counterText").innerHTML = `Count = ${counter}`
+    document.querySelector("#counterText").innerHTML = `${counter}`
 }
 
 main();

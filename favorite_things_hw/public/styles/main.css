@@ -9,7 +9,7 @@ body {
 .button-group{
     padding: 5vw;
     text-align:center;
-    border: gray solid 2px;
+    /* border: gray solid 2px; */
 }
 .button-group > button{
     font-size: 1.5em;

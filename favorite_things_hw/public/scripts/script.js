@@ -17,6 +17,17 @@ main = function() {
         counter = counter + 1;
         updateView();
     }
+    document.querySelector("redButton").onclick = (event) =>{
+
+    }
+    document.querySelector("greenButton").onclick = (event) =>{
+        
+    }
+    document.querySelector("blueButton").onclick = (event) =>{
+        
+    }
+
+
 }
 updateView = function(){
     document.querySelector("#counterText").innerHTML = `${counter}`

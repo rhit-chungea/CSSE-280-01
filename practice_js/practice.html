@@ -1,0 +1,134 @@
+<!-- <!DOCTYPE html>INtro
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+ <p id="demo">JavaScript can change HTML content.</p> -->
+
+<!-- <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> --> <!--change text-->
+<!-- <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button> --><!--alter text size-->
+<!-- <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button> make text disappear -->
+<!-- <p>JavaScript can show hidden HTML elements.</p>
+<p id="demo" style="display:none">Hello JavaScript!</p>
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button> reveal hidden elements-->
+<!-- </body>
+</html> -->
+
+<!-- <!DOCTYPE html> in head
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>  -->
+
+<!-- <!DOCTYPE html> in body
+<html>
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html> external
+<html>
+<body>
+
+<h2>Demo External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<script src="practice.js"></script> could do multiple scripts and can do file path
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+delets all html, should only be used for testing
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+window.alert(5 + 6);
+</script>
+let x;
+x = 6; different types of variable declarations, use semicolons to serpeate lines, 
+could put multiple line on the smae line this way
+
+comments are //
+multi line comments are /* */
+can do undeclared variables but good practice to always declare
+var, let and const
+var should only be used for old pre 2015 browsers
+let is mutable, const immutable
+8 data dtypes, string, number bigint, boolean, undefined, null, symbol, object
+</body>
+</html> -->

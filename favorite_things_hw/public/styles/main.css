@@ -22,16 +22,16 @@ body {
     background-color: maroon;
 }
 #redButton{
-    background-color:red;
+    background-color:#ff0000;
 }
 #greenButton{
-    background-color:green;
+    background-color:#008000;
 }
 #blueButton{
-    background-color:blue;
+    background-color:#0000ff;
 }
 #orangeButton{
-    background-color:orange;
+    background-color:#ffa500;
 }
 #counterText{
     color: black;

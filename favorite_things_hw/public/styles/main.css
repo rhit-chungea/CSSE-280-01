@@ -22,3 +22,9 @@ body {
     font-size: 4em;
     text-align: center;
 }
+#colorText{
+    color: black;
+    font-family: consolas, arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}

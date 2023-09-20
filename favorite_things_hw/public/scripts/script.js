@@ -35,6 +35,12 @@ main = function() {
         text = "Blue";
         updateView();
     }
+    document.querySelector("#orangeButton").onclick = (event) =>{
+        console.log("orange button");
+        text = "Orange";
+        // document.getElementById('#colorText').style.backgroundColor = '#FFFFFF';
+        updateView();
+    }
 }
 updateView = function(){
     document.querySelector("#counterText").innerHTML = `${counter}`

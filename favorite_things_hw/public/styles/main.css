@@ -40,10 +40,13 @@ body {
     text-align: center;
 }
 #colorText{
+    text-align: center;
     color: white;
     background-color: blue;
     font-family: consolas, arial, sans-serif;
-    font-size: 4em;
-    text-align: center;
+    font-size: 2em;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
     
 }

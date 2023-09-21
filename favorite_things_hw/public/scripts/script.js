@@ -1,7 +1,7 @@
 
 let counter = 0;
 let text = "Blue";
-let color = "0000ff"
+let color = "0000ff";
 main = function() {
     
     console.log("Ready")
@@ -34,7 +34,7 @@ main = function() {
         updateView();
     }
     document.querySelector("#blueButton").onclick = (event) =>{
-        console.log("green button");
+        console.log("blue button");
         text = "Blue";
         color = "#0000ff"
         updateView();

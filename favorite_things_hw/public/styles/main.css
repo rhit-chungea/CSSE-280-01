@@ -23,15 +23,19 @@ body {
 }
 #redButton{
     background-color:#ff0000;
+    width: 15%;
 }
 #greenButton{
     background-color:#008000;
+    width: 15%;
 }
 #blueButton{
     background-color:#0000ff;
+    width: 15%;
 }
 #orangeButton{
     background-color:#ffa500;
+    width: 15%;
 }
 #counterText{
     color: black;
@@ -47,6 +51,8 @@ body {
     font-size: 2em;
     width: 200px;
     margin: 20px;
-    padding: 20px;
+    height: 100px;
+    line-height: 100px;
     
 }
+

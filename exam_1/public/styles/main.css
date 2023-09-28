@@ -1,0 +1,38 @@
+body{
+    font-family: 'Vujahday Script';
+    
+  }
+.navbar{
+    font-size: 2em;
+    background-color: rgb(241, 233, 210);
+}
+.social-media{
+    align-self: center;
+
+}
+.single-box{
+    height: 5%;
+    width: 5%;;
+}
+.double-box{
+    height:5%;
+    width:10%;
+}
+#bio{
+
+    margin: 15px;
+
+}
+
+.card{
+    background-color: rgb(241, 233, 210);
+    margin: 15px;
+    text-align: center;
+}
+.button-group{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(241, 233, 210);
+    color: black;
+}

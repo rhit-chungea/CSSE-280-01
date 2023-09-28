@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Media</title>
+    <title>Choose Owl</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vujahday Script">   
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css' integrity='sha512-AZtJoEn5SfSZimv10x5NMO2gaZCdoU8nxtHJK8O4SbKNlQeb1ggkvf0b0QixuuXIjX3Tp5jzBbTWajki81Vl2g==' crossorigin='anonymous'/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
     <link rel="icon" type="favicon" href="favicon.ico">
@@ -28,22 +28,58 @@
       to avoid connecting the SDK to running emulators.
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
+    
    
   </head>
+
   <body>
-    <div class="container">
-      <div class="text">
-        Hello Screen!
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+  </nav>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js' integrity='sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js' integrity='sha512-rXm6RiYDlz+aZC/ht75tGzeAmCg4gVfBA6Be5s5uENSahiXkgwEy10J2Cc+dxUAW4lRRQYbS5pugMOqBrs8ksw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js' integrity='sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==' crossorigin='anonymous'></script>
+    <div id="mainPage" class="container page-container">
+      
+    <div class="card" style="width:400px">
+      <h1 id="birdName">Hedwig</h1>
+      <img id="birdPic" class="card-img-top" src="images/hedwig.png" alt="Image of Owl">
+      <div class="card-body">
+        <h4 class="card-title">This is Hedwig!</h4>
+        
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
       </div>
-
-
     </div>
-    <div id="size">
-      Width
+    <p id="bio">Hedwig (d. 27 July 1997) was Harry Potter's pet female snowy owl. Hedwig was an eleventh birthday gift from Rubeus Hagrid to Harry. Hagrid purchased her at the Eeylops Owl Emporium.
+
+      In addition to delivering mail, the typical use owls are put to, Hedwig was also a close companion to Harry. She remained one of his closest friends right up to her death during the Battle of the Seven Potters at the height of the Second Wizarding War.</p>
+    
+      <div class="button-group" >
+      <button id="hedwigButton" type="button" class="btn btn-secondary btn-lg" >Hedwig</button>
+      <button id="pigwidgeonButton" type="button" class="btn btn-secondary btn-lg" >Pigwidgeon</button>
     </div>
 
-    <script src="scripts/main.js"></script>
+    <!-- <footer> -->
+    <div class="conatiner" align="center">
+      <img class="single-box" src="images/dribbble-logo.png" alt="Dribble image">
+      <img class="single-box" src="images/Instagram.png" alt="Instagram image">
+      <img class="double-box" src="images/twitter.png" alt="Twitter image">
+      <img class="single-box" src="images/behance.png" alt="Behance image">
+    </div>
+  <!-- </footer> -->
+  </div>    
+  <script src="scripts/main.js"></script>
 
   </body>
 </html>

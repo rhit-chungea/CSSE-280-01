@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "tic-tac-toe-mult"
+  },
+  "targets": {
+    "tic-tac-toe-mult": {
+      "hosting": {
+        "01": [
+          "tic-tac-toe-mult"
+        ],
+        "02": [
+          "tic-game-2"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -19,9 +19,33 @@
     </head>
     <body>
         <div class="container">
+            <div class="py-5 text-center">
+                <h2 class="display-4">Car Selector</h2>
+            </div>
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-8"></div>
+                <div class="col-md-4 order-md-1 mb-4">
+                    <h4 class="fw-bold">CAR LIST</h4>
+                    <ul id="car-list" class="list-group mb-3"></ul>
+                </div>
+                <div class="col-md-8 order-md-2">
+                    <div id="car">
+                        <div class="row">
+                            <div class="col text-center">
+                                <h2 id="car-name" class="display-4 fw-bold"></h2>
+                            </div>
+                            <div class="col text-center">
+                                <p class="display-5">
+                                    Vote Count:
+                                    <span id="car-count"></span>
+                                </p>
+                                
+                            </div>
+                            
+                        </div>
+                        <img class="w-100 mx-auto d-block" id="car-img" src="" alt="muscle car">
+                    </div>
+                    <div class="row"></div>
+                </div>
             </div>
         </div>
 

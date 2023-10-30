@@ -11,7 +11,7 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
         <link rel="icon" type="favicon" href="favicon.ico">
         <link rel="stylesheet" href="styles/main.css">
-        <title>API</title>
+        <title>Client Testimonial</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        
@@ -30,12 +30,12 @@
         <div id="mainPage" class="container page-container">
 
           <h1>Our Client</h1>
-          <div class="card" style="width:400px">
-            <img class="card-img-top" src="" alt="Card image">
+          <div id="cardTotal" class="justify-content-center text-center w-75 mx-auto" style="width:400px">
+            <img id="imageShow" class="card-img-top" src="" alt="Card image">
             <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a id="fetchData" href="#" class="btn btn-primary">Another Testimony</a>
+              <h4 id="nameArea" class="card-title">John Doe</h4>
+              <div id="dataContainer" class="card-text">Testimonial</div>
+              <button id="fetchData" type="button" class="btn btn-primary">Another Testimonial</button>
             </div>
           </div>
 

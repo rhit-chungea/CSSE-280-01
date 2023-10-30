@@ -7,5 +7,12 @@ h1{
     text-align: center;
 }
 body{
-    background-color: linear-gradient(to right, #FFF, rgb(135, 64, 135)) ;
+    background: linear-gradient(to right, #FFF, rgb(132, 78, 132)) ;
+}
+.card{
+    text-align: center;
+    align-self: center;
+}
+#cardTotal{
+    background-color: #FFF;
 }

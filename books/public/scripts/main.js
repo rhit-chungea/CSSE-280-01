@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
+    
     try {
     const response = await fetch('/books');
     if (!response.ok) {
@@ -16,3 +17,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Error fetching books:', error);
     }
     });
+    

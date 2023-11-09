@@ -52,7 +52,7 @@ app.post('/setmonths', async (req, res) => {
     const newMonth = { months };
     month.parse;
     saveToServer(months); //Post by using this syntax for json: {"months": ["jan", "feb"]}
-    res.status(201).json(newMonth);
+    res.status(201).json(month);
 });
 
 app.put('/move/:fromindex/:toindex', async (req, res) =>{

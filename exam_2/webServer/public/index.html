@@ -11,7 +11,7 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
         <link rel="icon" type="favicon" href="favicon.ico">
         <link rel="stylesheet" href="styles/main.css">
-        <title></title>
+        <title>Months Exam</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        
@@ -28,6 +28,33 @@
           <a class="navbar-brand" href="#">Months</a>
         </div>
       </nav>
+      <p id="middle">This website is always set to the default that the months are in the correct order and the reset button will put the months back in such order, chronologically</p>
+      <div id="inputStuff" style="display: table;">
+        <div style="display: table-cell;">
+          <input type="number" id="fromIndex" class="form-control" placeholder="from Index">
+        </div>
+        <div style="display: table-cell;">
+          <input type="number" id="toIndex" class="form-control" placeholder="to Index">
+        </div>
+       
+        
+
+      </div>
+
+      <div id="buttonStuff" style="display: table;">
+        <div style="display: table-cell;">
+          <button type="button" class="btn btn-secondary" id="moveButton">Move</button>
+          
+        </div>
+        <div style="display: table-cell;">
+          <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+        </div>
+       
+        
+
+      </div>
+      
+      <div id="monthBox"></div>
 
         <script src="scripts/script.js"></script>
     </body>

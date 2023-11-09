@@ -1,3 +1,17 @@
 .navbar{
     background-color: blueviolet;
 }
+#inputStuff{
+    margin: auto;
+    padding: 50px;
+}
+#buttonStuff{
+    margin: auto;
+}
+
+#monthBox{
+    text-align: center;
+}
+#middle{
+    text-align: center;
+}
